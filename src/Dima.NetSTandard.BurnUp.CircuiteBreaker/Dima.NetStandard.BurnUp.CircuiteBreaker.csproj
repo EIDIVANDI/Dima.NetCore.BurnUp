@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Dima.NetSTandard.BurnUp.CircuiteBreaker</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="TaskCircuitBreaker.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dima.NetStandard.BurnUp\Dima.NetStandard.BurnUp.csproj" />
+  </ItemGroup>
+
+</Project>
